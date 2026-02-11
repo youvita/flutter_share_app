@@ -43,7 +43,7 @@ jobs:
         cname: # Optional: Add your custom domain here
         
     - name: Archive build artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: flutter-web-build
         path: build/web/
